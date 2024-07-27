@@ -1,0 +1,115 @@
+/* AddSkillModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  background: #f7f7f7;
+}
+
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skill-input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f7f7f7;
+  font-size: 1em;
+}
+
+.proficiency-input {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f7f7f7;
+  font-size: 1em;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-button {
+  background: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 10px 20px;
+  transition: background 0.3s;
+}
+
+.add-button:hover {
+  background: #e6b800;
+}
+
+.cancel-button {
+  background: #ffcccc;
+  border: none;
+  border-radius: 5px;
+  color: #ff0000;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 10px 20px;
+  transition: background 0.3s;
+}
+
+.cancel-button:hover {
+  background: #ff9999;
+}

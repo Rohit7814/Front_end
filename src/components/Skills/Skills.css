@@ -1,0 +1,92 @@
+/* src/Skills.css */
+.skills-container {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.skills-container p {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+  max-width: 800px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.skill-category {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px; /* Adjust width as needed */
+}
+
+.skill-category h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.skill span {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  background-color: #ced632;
+  border-radius: 5px;
+  height: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.skill-level {
+  background-color: #ced632;
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+.skill-percent {
+  font-size: 14px;
+  color: #333;
+}
+
+.add-skill-button {
+  background-color: #ced632
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.add-skill-button:hover {
+  background-color: #959c17;
+}
